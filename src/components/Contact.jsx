@@ -1,4 +1,4 @@
-import cartoon from "/public/cartoon.png"
+import cartoon from "/cartoon.png"
 
 const Contact = () => {
   return (

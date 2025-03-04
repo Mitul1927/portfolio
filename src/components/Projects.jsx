@@ -1,12 +1,24 @@
 import { AiOutlineGithub } from "react-icons/ai";
 import Reveal from "./Reveal";
-import FitnessClub from "/public/Fitness-club.png";
-import AddressBook from "/public/address-book.png";
-import Bookify from "/public/bookify.png";
-import LearnLynx from "/public/learnlynx.png";
+import FitnessClub from "/Fitness-club.png";
+import AddressBook from "/address-book.png";
+import Bookify from "/bookify.png";
+import LearnLynx from "/learnlynx.png";
+import ShipEase from "/ShipEase.png";
+import NexLearn from "/NexLearn.png";
 import { CiLink } from "react-icons/ci";
 
 const projects = [
+  {
+    img: ShipEase,
+    title: "ShipEase (MERN Stack)",
+    description:
+      "ShipEase is a cargo shipment tracker built with the MERN stack, enabling users to add and track shipments with OpenStreetMap integration. It features a interactive homepage, Redux-based state management, and a responsive UI. Users can manage shipments securely, with only creators allowed to modify their shipments. The project focuses on efficient shipment visualization, ensuring smooth tracking and management. 🚀",
+      links:{
+        github : "https://github.com/Mitul1927/ShipEase",
+        site : "https://ship-ease-smoky.vercel.app/"
+      }
+  },
   {
     img: LearnLynx,
     title: "LearnLynx (Full Stack)",
@@ -23,6 +35,16 @@ const projects = [
       "Bookify is a MERN stack bookstore application where the admin can add, update, and delete books, while users can explore and purchase them. It includes secure Google login integration for streamlined user authentication.",
     links: {
       github: "https://github.com/Mitul1927/Bookify",
+    },
+  },
+  {
+    img: NexLearn,
+    title: "NexLearn",
+    description:
+      "**NexLearn** is a learning platform built in just **24 hours** in a hackathon, featuring seamless course management, user authentication, and a responsive UI. Optimized with indexing and efficient APIs for fast performance. 🚀",
+    links: {
+      github: "https://github.com/Mitul1927/HerCareCoders",
+      site: "https://her-care-coders.vercel.app/",
     },
   },
   {

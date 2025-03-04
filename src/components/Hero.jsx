@@ -1,4 +1,4 @@
-import mitul from "/public/mitul4.png"
+import mitul from "/mitul4.png"
 import {motion} from "framer-motion"
 
 const Hero = () => {
