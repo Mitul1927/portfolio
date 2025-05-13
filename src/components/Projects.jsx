@@ -41,7 +41,7 @@ const projects = [
     img: NexLearn,
     title: "NexLearn",
     description:
-      "**NexLearn** is a learning platform built in just **24 hours** in a hackathon, featuring seamless course management, user authentication, and a responsive UI. Optimized with indexing and efficient APIs for fast performance. 🚀",
+      "NexLearn is a learning platform built in just 24 hours in a hackathon, featuring seamless course management, user authentication, and a responsive UI. Optimized with indexing and efficient APIs for fast performance. 🚀",
     links: {
       github: "https://github.com/Mitul1927/HerCareCoders",
       site: "https://her-care-coders.vercel.app/",
